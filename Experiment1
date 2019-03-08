@@ -1,0 +1,64 @@
+#include <iostream>
+#include <string>
+#include <conio.h>
+
+using namespace std;
+
+int main ()
+{
+	double ticketPrice1;
+	double ticketPrice2;
+	double ticketPrice3;
+	double ticketPrice4;
+
+	int numberOfTicketsSold1;
+	int numberOfTicketsSold2;
+	int numberOfTicketsSold3;
+	int numberOfTicketsSold4;
+
+	cout<< "ticketPrice"<<endl; 
+	cin>>ticketPrice1;
+	cout<< "numberofticketsSold"<<endl;
+	cin>> numberOfTicketsSold1;
+	cout<< "Total Sale Amount"<<' '<< "="<<' ';
+	cout<< ticketPrice1*numberOfTicketsSold1<< endl;
+
+	cout<< endl;
+	
+	cout<< "ticketPrice"<<endl; 
+	cin>>ticketPrice2;
+	cout<< "numberofticketsSold"<<endl;
+	cin>> numberOfTicketsSold2;
+	cout<< "Total Sale Amount"<<' '<< "="<<' ';
+	cout<< ticketPrice2*numberOfTicketsSold2<< endl;
+
+	cout<< endl;
+
+	cout<< "ticketPrice"<<endl; 
+	cin>>ticketPrice3;
+	cout<< "numberofticketsSold"<<endl;
+	cin>> numberOfTicketsSold3;
+	cout<< "Total Sale Amount"<<' '<< "="<<' ';
+	cout<< ticketPrice3*numberOfTicketsSold3<< endl;
+
+	cout<< endl;
+
+	cout<< "ticketPrice"<<endl; 
+	cin>>ticketPrice4;
+	cout<< "numberofticketsSold"<<endl;
+	cin>> numberOfTicketsSold4;
+	cout<< "Total Sale Amount"<<' '<< "="<<' ';
+	cout<< ticketPrice4*numberOfTicketsSold4<< endl;
+
+	cout<< endl;
+
+	cout<< "totalnumberofTicketsSold"<<endl;
+	cout<< numberOfTicketsSold1 + numberOfTicketsSold2 + numberOfTicketsSold3 + numberOfTicketsSold4 << endl;
+	cout<< endl;
+
+	cout<< "Total Sale Amount"<< endl;
+	cout<< (ticketPrice1*numberOfTicketsSold1) + (ticketPrice2*numberOfTicketsSold2) + (ticketPrice3*numberOfTicketsSold3) + (ticketPrice4*numberOfTicketsSold4) << endl;
+
+_getch();
+return 0;
+}
